@@ -1,0 +1,240 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  width: 100%;
+  height: auto;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Race Sport', sans-serif;
+  background-color: #0D1B21 !important;
+}
+
+
+@font-face {
+  font-family: 'Race Sport';
+  src: url('../../fonts/RaceSportRegular.woff2') format('woff2'),
+    url('../../fonts/RaceSportRegular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'Antarctica Demo';
+  src: url('../../fonts/AntarcticaDemoBold.woff2') format('woff2'),
+    url('../../fonts/AntarcticaDemoBold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Antarctica Demo';
+  src: url('../../fonts/AntarcticaDemoItalic.woff2') format('woff2'),
+    url('../../fonts/AntarcticaDemoItalic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Antarctica Demo';
+  src: url('../../fonts/AntarcticaDemoBoldItalic.woff2') format('woff2'),
+    url('../../fonts/AntarcticaDemoBoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Antarctica Demo';
+  src: url('../../fonts/AntarcticaDemoRegular.woff2') format('woff2'),
+    url('../../fonts/AntarcticaDemoRegular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.antratic {
+  font-family: 'Antarctica Demo', sans-serif;
+}
+/* Css reset  */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  font-family: 'Race Sport', sans-serif;
+  font-style: normal;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+.inter {
+  font-family: "Inter", serif;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.wrapper-div {
+  position: relative;
+  overflow: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none !important;
+}
+
+.bg-bggg {
+  background-image: url('../images//btn-bg.svg');
+  background-position: center;
+  background-size: cover;
+}
+
+.row-gap-px {
+  row-gap: 40px;
+}
+
+.roadmap-bg {
+  background-image: url('../images/roadmap-bg.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.next-bg {
+  background-image: url('../images/next-bg.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 186px;
+}
+
+.row-grap-extra {
+  row-gap: 50px;
+}
+
+.footer-top {
+  background-image: url('../images/footer-bg.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
