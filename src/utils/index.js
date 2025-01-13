@@ -60,6 +60,18 @@ export { default as BlueOne } from "../assets/images/blue-one.svg";
 export { default as BlueTwo } from "../assets/images/blue-two.svg";
 export { default as BlueThree } from "../assets/images/blue-three.svg";
 export { default as BlueFour } from "../assets/images/blue-four.svg";
+export { default as CardOne } from "../assets/images/card-one.svg";
+export { default as CardTwo } from "../assets/images/card-two.svg";
+export { default as CardThree } from "../assets/images/card-three.svg";
+export { default as CardFour } from "../assets/images/card-four.svg";
+export { default as BgOne } from "../assets/images/background-one.svg";
+export { default as BgTwo } from "../assets/images/background-two.svg";
+export { default as BgThree } from "../assets/images/background-three.svg";
+export { default as BgFour } from "../assets/images/background-four.svg";
+
+
+
+
 
 
 

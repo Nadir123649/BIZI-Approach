@@ -1,4 +1,4 @@
-import { BlueFour, BlueOne, BlueThree, BlueTwo, LinearFour, LinearOne, LinearThree, LinearTwo, RedFour, RedOne, RedThree, RedTwo, TeamFive, TeamFour, TeamOne, TeamSix, TeamThree, TeamTwo, UpgradeFour, UpgradeOne, UpgradeThree, UpgradeTwo, YellowFour, YellowOne, YellowThree, YellowTwo } from "../utils";
+import { BgFour, BgOne, BgThree, BgTwo, BlueFour, BlueOne, BlueThree, BlueTwo, CardFour, CardOne, CardThree, CardTwo, LinearFour, LinearOne, LinearThree, LinearTwo, RedFour, RedOne, RedThree, RedTwo, TeamFive, TeamFour, TeamOne, TeamSix, TeamThree, TeamTwo, UpgradeFour, UpgradeOne, UpgradeThree, UpgradeTwo, YellowFour, YellowOne, YellowThree, YellowTwo } from "../utils";
 
 export const teamsData = [
     {
@@ -86,7 +86,7 @@ export const typedData = [
 export const cardData = [
     {
         id: 1,
-        logo: "",
+        logo: CardOne,
         imageOne: RedOne,
         valueone: "15 / 100",
         imageTwo: RedTwo,
@@ -96,10 +96,11 @@ export const cardData = [
         imageFour: RedFour,
         valuefour: "37 / 100",
         upgrade: UpgradeOne,
+        backgroundImage: BgOne,
     },
     {
         id: 2,
-        logo: "",
+        logo: CardTwo,
         imageOne: YellowOne,
         valueone: "35 / 100",
         imageTwo: YellowTwo,
@@ -109,10 +110,11 @@ export const cardData = [
         imageFour: YellowFour,
         valuefour: "50 / 100",
         upgrade: UpgradeTwo,
+        backgroundImage: BgTwo,
     },
     {
         id: 3,
-        logo: "",
+        logo: CardThree,
         imageOne: LinearOne,
         valueone: "80 / 100",
         imageTwo: LinearTwo,
@@ -122,10 +124,11 @@ export const cardData = [
         imageFour: LinearFour,
         valuefour: "100 / 100",
         upgrade: UpgradeThree,
+        backgroundImage: BgThree,
     },
     {
         id: 4,
-        logo: "",
+        logo: CardFour,
         imageOne: BlueOne,
         valueone: "60 / 100",
         imageTwo: BlueTwo,
@@ -135,5 +138,6 @@ export const cardData = [
         imageFour: BlueFour,
         valuefour: "80 / 100",
         upgrade: UpgradeFour,
+        backgroundImage: BgFour,
     },
 ]
