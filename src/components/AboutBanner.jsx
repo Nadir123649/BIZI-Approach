@@ -1,5 +1,5 @@
 import React from 'react';
-import { AboutWhite, AboutYellow } from '../utils';
+import { AboutWhite, AboutYellow, BannerOutCar } from '../utils';
 
 const AboutBanner = () => {
     return (
@@ -11,7 +11,7 @@ const AboutBanner = () => {
                 loop
                 playsInline
             >
-                {/* <source src={BannerOutCar} type="video/mp4" /> */}
+                <source src={BannerOutCar} type="video/mp4" />
                 Your browser does not support the video tag.
             </video>
             <div className="absolute top-[25%] right-0 -z-[3]">
