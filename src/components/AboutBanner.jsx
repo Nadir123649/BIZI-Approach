@@ -42,7 +42,7 @@ const AboutBanner = () => {
 
             <div className="relative z-10 flex justify-end items-center h-full min-h-screen px-8 text-center pr-[120px]  pt-[124px]">
                 <div className="text-right">
-                    <h1 className='text-[118px] text-[#0D1B218A] font-[400] leading-[87px]  opacity-60'>
+                    <h1 className='text-[118px] text-[#0D1B218A] font-[400] leading-[87px]  opacity-70'>
                         Speed
                     </h1>
                 </div>
