@@ -35,7 +35,7 @@ const GameLogos = () => {
             {
                 breakpoint: 480,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 1,
                     slidesToScroll: 1,
                 }
             }
@@ -74,7 +74,7 @@ const GameLogos = () => {
                 </div>
 
                 <div
-                    className="slideing-logos bg-[#0D1B21]/55  backdrop-blur-lg h-[112px] p-4 rounded-md  w-[105%]  absolute z-20 w-[100%] top-[150px] left-[-10px] flex flex-col justify-center"
+                    className="slideing-logos bg-[#0D1B21]/55  backdrop-blur-lg h-[112px] p-4 rounded-md   absolute z-20 w-[100%] top-[150px] left-[-10px] flex flex-col justify-center"
                     style={{ transform: 'rotate(4.5deg)' }}
                 >
                     <Slider {...sliderSettings}>

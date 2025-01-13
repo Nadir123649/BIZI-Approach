@@ -69,6 +69,7 @@ body {
 .antratic {
   font-family: 'Antarctica Demo', sans-serif;
 }
+
 /* Css reset  */
 html,
 body,
@@ -237,4 +238,56 @@ a {
   background-image: url('../images/footer-bg.svg');
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.typed-card {
+  background-image: url('../images/typed-bg.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  max-width: 706px;
+  width: 100%;
+  height: 85px;
+}
+
+.flex-gap {
+  row-gap: 50px !important;
+  margin-top: 70px !important;
+}
+
+.flex-margin {
+  margin-top: 80px !important;
+}
+
+.nav-zigzag-bg {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+
+}
+
+@media screen and (max-width: 768px) {
+  .row-grap-extra {
+    row-gap: 10px;
+  }
+
+  .dsc-footer-logo {
+    display: none;
+  }
+
+  .scale-img {
+    width: 20px;
+  }
+
+  .next-bg {
+    height: 60px;
+  }
+
+  .nav-zigzag-bg {
+    top: 53px;
+    min-height: 50px;
+  }
+
+  .nav-one {
+    width: 100%;
+  }
 }
