@@ -1,9 +1,9 @@
 import React from 'react';
-// import { CarsBanner } from '../utils';
 import TitleComponent from './TitleComponent';
 import { Col, Row } from 'react-bootstrap';
 import TypesCard from './TypesCard';
 import { typedData } from '../constants';
+import { CarsBanner } from '../utils';
 
 const SlidingCarsSection = () => {
     return (
@@ -15,7 +15,7 @@ const SlidingCarsSection = () => {
                 loop
                 playsInline
             >
-                {/* <source src={CarsBanner} type="video/mp4" /> */}
+                <source src={CarsBanner} type="video/mp4" />
                 Your browser does not support the video tag.
             </video>
 

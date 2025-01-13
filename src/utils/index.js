@@ -2,6 +2,7 @@ export { default as Logo } from "../assets/images/logo.svg";
 export { default as NavBg } from "../assets/images/nav-bg.svg";
 export { default as BannerVideo } from "../assets/images/banner-video.mp4";
 export { default as BannerOutCar } from "../assets/images/about-banner.mp4";
+export { default as CarsBanner } from "../assets/images/new-banner.mp4";
 export { default as Layer } from "../assets/images/layer-bg.svg";
 export { default as LogoBigger } from "../assets/images/logo-bigger.svg";
 export { default as Apple } from "../assets/images/apple.svg";
