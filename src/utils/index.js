@@ -36,6 +36,8 @@ export { default as Instagram } from "../assets/images/instagram.svg";
 export { default as Youtube } from "../assets/images/youtube.svg";
 export { default as Tiktok } from "../assets/images/tiktok.svg";
 export { default as BannerGrouped } from "../assets/images/banner-group.svg";
+export { default as gameBanner } from "../assets/images/gamebanner.png";
+
 
 
 
