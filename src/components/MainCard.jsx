@@ -37,8 +37,8 @@ const MainCard = ({ card }) => {
                     <p className='text-right text-[10px] font-[400] text-[#FFFFFF] leading-normal not-italic mt-[2px] mb-[2px]'>{card.valuefour}</p>
                 </div>
             </div>
-            <div className='upgrade-box relative top-[-10px] ml-[20px]'>
-                <img src={card.upgrade} alt="upgrade" />
+            <div className='upgrade-box relative top-[-10px] ml-[0px] md:ml-[20px]'>
+                <img src={card.upgrade} alt="upgrade" className=' mx-auto' />
             </div>
         </div>
     );

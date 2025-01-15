@@ -278,9 +278,7 @@ a {
     width: 20px;
   }
 
-  .next-bg {
-    height: 60px;
-  }
+
 
   .nav-zigzag-bg {
     top: 53px;
@@ -299,4 +297,25 @@ a {
   .typed-card {
     height: 60px;
   }
+
+  .next-bg {
+
+    background-size: contain;
+    position: relative;
+    background-image: url('../images/next-bg-mbl.png');
+    height: 73px;
+
+  }
+
+  .next-text {
+    position: absolute;
+    left: 60px;
+
+  }
+
+  .animate-right {
+    position: absolute;
+    right: 40px;
+  }
+
 }

@@ -3,7 +3,7 @@ import { Apple, BannerGrouped, BannerVideo, Down, Layer, LogoBigger, Playstore }
 
 const Banner = () => {
     return (
-        <section className="relative min-h-screen overflow-hidden">
+        <section className="relative min-h-[80vh] md:min-h-[100vh] overflow-hidden">
             <video
                 className="absolute top-0 left-0 w-full h-full object-cover -z-10"
                 autoPlay
@@ -29,7 +29,7 @@ const Banner = () => {
                 />
             </div>
 
-            <div className="relative z-10 flex justify-center items-center h-full min-h-screen px-8 text-center">
+            <div className="relative z-10 flex justify-center items-center h-full min-h-[80vh] md:min-h-[100vh] px-8 text-center">
                 <div className="text-center">
                     <h1 className='text-[36px] md:text-[64px] text-[#D2D3D4] font-[400] leading-[87px] max-w-[546px] w-full mx-auto text-center mb-[24px]'>
                         WELCOME TO
@@ -46,8 +46,8 @@ const Banner = () => {
                     </p>
 
                     <div className='max-[500px] w-full flex flex-col md:flex-row justify-center items-center gap-2 mt-[40px]'>
-                        <img src={Apple} alt="apple" className='cursor-pointer ' />
-                        <img src={Playstore} alt="playstore" className='cursor-pointer ' />
+                        <img src={Apple} alt="apple" className='cursor-pointer w-90 h-20 ' />
+                        <img src={Playstore} alt="playstore" className='cursor-pointer w-90 h-18 ' />
                     </div>
                     {/* <p className='inter italic text-[14px] font-[500] leading-normal text-center mt-[14px] text-[#D2D3D4]'>
                         Coming Soon

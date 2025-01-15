@@ -57,8 +57,8 @@ const Footer = () => {
                 GET IN THE DRIVERS SEAT
               </p>
               <div className="flex flex-col md:flex-row items-start md:items-center gap-2">
-                <img src={FooterOne} alt="footer-alt" className=" cursor-pointer " />
-                <img src={FooterTwo} alt="footer-alt" className=" cursor-pointer  " />
+                <img src={FooterOne} alt="footer-alt" className=" cursor-pointer w-60 h-20 object-contain" />
+                <img src={FooterTwo} alt="footer-alt" className=" cursor-pointer w-60 h-20 object-contain " />
               </div>
             </div>
           </Col>
