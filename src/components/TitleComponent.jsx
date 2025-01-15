@@ -10,7 +10,7 @@ const TitleComponent = ({ title, className }) => {
                     <img src={ScaleTwo} alt="Scale" className="scale-img" />
                     <img src={ScaleThree} alt="Scale" className="scale-img" />
                 </div>
-                <h1 className='text-[14px] md:text-[64px] text-[#D2D3D4] text-[400] leading-normal'>{title}</h1>
+                <h1 className='text-[14px] mb-0 md:text-[64px] text-[#D2D3D4] text-[400] leading-normal'>{title}</h1>
                 <div className='flex gap-[2px] items-center'>
                     <img src={ScaleRightOne} alt="Scale" className="scale-img" />
                     <img src={ScaleRightTwo} alt="Scale" className="scale-img" />

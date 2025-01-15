@@ -19,11 +19,11 @@ const SlidingCarsSection = () => {
                 Your browser does not support the video tag.
             </video>
 
-            <div className="relative z-10 h-full min-h-screen text-center w-full px-[40px]">
-                <TitleComponent title="Type of races" className="flex items-center justify-end gap-[30px] mt-[52px] mr-[32px]" />
-                <Row className='px-[40px] flex-gap '>
+            <div className="relative z-10 h-full min-h-screen text-center w-full px-[20px] md:px-[40px]">
+                <TitleComponent title="Type of races" className="flex items-center justify-end gap-[24px] md:gap-[30px] mt-[52px] mr-[32px]" />
+                <Row className='px-[0px] md:px-[40px] flex-gap '>
                     {typedData.map((types) => (
-                        <Col key={types.id} lg={6} md={12} sm={12} xs={12}>
+                        <Col key={types.id} lg={6} md={6} sm={12} xs={12}>
                             <TypesCard types={types} />
                         </Col>
                     ))}

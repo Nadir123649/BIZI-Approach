@@ -290,4 +290,13 @@ a {
   .nav-one {
     width: 100%;
   }
+
+  .flex-gap {
+    row-gap: 0px !important;
+    margin-top: 30px !important;
+  }
+
+  .typed-card {
+    height: 60px;
+  }
 }

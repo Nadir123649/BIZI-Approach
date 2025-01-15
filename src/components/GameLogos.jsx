@@ -44,8 +44,8 @@ const GameLogos = () => {
 
     return (
         <section className='overflow-hidden pt-[40px] pb-[40px] relative'>
-            <div className='static-logos h-[300px]'>
-                <div className='bg-[#FFCC2A] flex justify-between items-center py-[16px] h-[105px] absolute w-[105%] top-[150px] left-[-10px] z-10'
+            <div className='static-logos h-[200px] md:h-[300px]'>
+                <div className='bg-[#FFCC2A] flex justify-between items-center py-[16px] h-[95px] md:h-[105px] absolute w-[105%] top-[100px] md:top-[150px] left-[-10px] z-10'
                     style={{ transform: 'rotate(-5deg)' }}>
                     <span className='text-[40px] text-[#0D1B21] font-[400]'>
                         Win!
@@ -74,7 +74,7 @@ const GameLogos = () => {
                 </div>
 
                 <div
-                    className="slideing-logos bg-[#0D1B21]/55  backdrop-blur-lg h-[112px] p-4 rounded-md   absolute z-20 w-[100%] top-[150px] left-[-10px] flex flex-col justify-center"
+                    className="slideing-logos bg-[#0D1B21]/55  backdrop-blur-lg h-[100px] md:h-[112px] p-4 rounded-md   absolute z-20 w-[100%] top-[100px] md:top-[150px] left-[0px] md:left-[-10px] flex flex-col justify-center"
                     style={{ transform: 'rotate(4.5deg)' }}
                 >
                     <Slider {...sliderSettings}>

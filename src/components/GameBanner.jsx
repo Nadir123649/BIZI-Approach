@@ -18,7 +18,7 @@ const GameBanner = () => {
             <img src={gameBanner} alt="gamebanner" className="block md:hidden min-h-[60vh]" />
 
             <div className="relative bottom-[40px] md:bottom-[0px] md:flex flex-col items-end  pb-[10px] md:pb-[60px] mt-[-80px] md:mt-[0px] md:pt-[20px] justify-end h-full text-center text-white min-h-[10vh] md:min-h-[100vh] px-[10px] md:px-[40px] ">
-                <button className="bg-bggg max-w-[462px] h-[95px] w-full text-[24px] font-[400] text-[#1C1F25] leading-normal capitalize flex gap-[6px] items-center justify-center">
+                <button className="bg-bggg max-w-[462px] h-[60px] md:h-[95px] w-full text-[18px] md:text-[24px] font-[400] text-[#1C1F25] leading-normal capitalize flex gap-[6px] items-center justify-center">
                     <span>
                         Go To Telegram
                     </span>
