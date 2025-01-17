@@ -41,9 +41,6 @@ export { default as BannerGrouped } from "../assets/images/banner-group.svg";
 export { default as gameBanner } from "../assets/images/gamebanner.png";
 export { default as AboutWhite } from "../assets/images/about-line.svg";
 export { default as AboutWhiteMobile } from "../assets/images/about-line-mbl.png";
-
-
-
 export { default as AboutYellow } from "../assets/images/about-yellow.svg";
 export { default as UpgradeOne } from "../assets/images/upgrade-one.svg";
 export { default as UpgradeTwo } from "../assets/images/upgrade-two.svg";
@@ -75,6 +72,8 @@ export { default as BgThree } from "../assets/images/background-three.svg";
 export { default as BgFour } from "../assets/images/background-four.svg";
 
 
+export { default as AppleLogo } from "../assets/images/btn-store.svg";
+export { default as PlayLogo } from "../assets/images/btn-play.svg";
 
 
 

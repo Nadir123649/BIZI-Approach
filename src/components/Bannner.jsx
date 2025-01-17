@@ -46,8 +46,8 @@ const Banner = () => {
                     </p>
 
                     <div className='max-[500px] w-full flex flex-col md:flex-row justify-center items-center gap-2 mt-[40px]'>
-                        <img src={Apple} alt="apple" className='cursor-pointer w-90 h-20 ' />
-                        <img src={Playstore} alt="playstore" className='cursor-pointer w-90 h-18 ' />
+                        <img src={Apple} alt="apple" className='cursor-pointer  social-btns' />
+                        <img src={Playstore} alt="playstore" className='cursor-pointer social-btns' />
                     </div>
                     {/* <p className='inter italic text-[14px] font-[500] leading-normal text-center mt-[14px] text-[#D2D3D4]'>
                         Coming Soon
