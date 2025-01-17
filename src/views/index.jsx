@@ -16,14 +16,22 @@ const Home = () => {
       <Header />
       <Bannner />
       <main >
-        <GiveawaySecton title="Givaways" />
+        <section id="giveaway">
+          <GiveawaySecton title="Givaways" />
+        </section>
         <GameBanner />
         <GameLogos />
-        <GiveawaySecton title="Team" />
-        <TeamsSection />
+        <section id="team">
+          <GiveawaySecton title="Team" />
+          <TeamsSection />
+        </section>
         <AdvisorsSection />
-        <RoadmapSection />
-        <NextSection />
+        <section id="roadmap">
+          <RoadmapSection />
+        </section>
+        <section id="thegame">
+          <NextSection />
+        </section>
       </main>
       <Footer />
     </>
