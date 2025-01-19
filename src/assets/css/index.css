@@ -8,6 +8,7 @@ body,
 html {
   width: 100%;
   height: auto;
+
 }
 
 html {
@@ -15,59 +16,8 @@ html {
 }
 
 body {
-  font-family: 'Race Sport', sans-serif;
-  background-color: #0D1B21 !important;
-}
+  font-family: 'Poppins';
 
-
-@font-face {
-  font-family: 'Race Sport';
-  src: url('../../fonts/RaceSportRegular.woff2') format('woff2'),
-    url('../../fonts/RaceSportRegular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-
-@font-face {
-  font-family: 'Antarctica Demo';
-  src: url('../../fonts/AntarcticaDemoBold.woff2') format('woff2'),
-    url('../../fonts/AntarcticaDemoBold.woff') format('woff');
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Antarctica Demo';
-  src: url('../../fonts/AntarcticaDemoItalic.woff2') format('woff2'),
-    url('../../fonts/AntarcticaDemoItalic.woff') format('woff');
-  font-weight: normal;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Antarctica Demo';
-  src: url('../../fonts/AntarcticaDemoBoldItalic.woff2') format('woff2'),
-    url('../../fonts/AntarcticaDemoBoldItalic.woff') format('woff');
-  font-weight: bold;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Antarctica Demo';
-  src: url('../../fonts/AntarcticaDemoRegular.woff2') format('woff2'),
-    url('../../fonts/AntarcticaDemoRegular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-.antratic {
-  font-family: 'Antarctica Demo', sans-serif;
 }
 
 /* Css reset  */
@@ -157,7 +107,7 @@ video {
   border: 0;
   font-size: 100%;
   vertical-align: baseline;
-  font-family: 'Race Sport', sans-serif;
+  font-family: 'Poppins';
   font-style: normal;
 }
 
@@ -182,6 +132,7 @@ section {
 
 body {
   line-height: 1;
+  font-family: 'Poppins';
 }
 
 ol,
@@ -206,121 +157,207 @@ a {
   text-decoration: none !important;
 }
 
-.bg-bggg {
-  background-image: url('../images//btn-bg.svg');
-  background-position: center;
-  background-size: cover;
+@font-face {
+  font-family: 'Poppins';
+  src: url('../../fonts/Poppins-ExtraBold.woff2') format('woff2'),
+    url('../../fonts/Poppins-ExtraBold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
 
-.row-gap-px {
-  row-gap: 40px;
+@font-face {
+  font-family: 'Poppins';
+  src: url('../../fonts/Poppins-ExtraLight.woff2') format('woff2'),
+    url('../../fonts/Poppins-ExtraLight.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
 }
 
-.roadmap-bg {
-  background-image: url('../images/roadmap-bg.svg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
+@font-face {
+  font-family: 'Poppins';
+  src: url('../../fonts/Poppins-Bold.woff2') format('woff2'),
+    url('../../fonts/Poppins-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
 
-.next-bg {
-  background-image: url('../images/next-bg.svg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 186px;
+@font-face {
+  font-family: 'Poppins';
+  src: url('../../fonts/Poppins-BlackItalic.woff2') format('woff2'),
+    url('../../fonts/Poppins-BlackItalic.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
 }
 
-.row-grap-extra {
-  row-gap: 50px;
+@font-face {
+  font-family: 'Poppins';
+  src: url('../../fonts/Poppins-ExtraBoldItalic.woff2') format('woff2'),
+    url('../../fonts/Poppins-ExtraBoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
 }
 
-.footer-top {
-  background-image: url('../images/footer-bg.svg');
-  background-repeat: no-repeat;
-  background-size: cover;
+@font-face {
+  font-family: 'Poppins';
+  src: url('../../fonts/Poppins-Black.woff2') format('woff2'),
+    url('../../fonts/Poppins-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
 }
 
-.typed-card {
-  background-image: url('../images/typed-bg.svg');
-  background-repeat: no-repeat;
-  background-size: contain;
-  max-width: 706px;
-  width: 100%;
-  height: 85px;
+@font-face {
+  font-family: 'Poppins';
+  src: url('../../fonts/Poppins-BoldItalic.woff2') format('woff2'),
+    url('../../fonts/Poppins-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
 }
 
-.flex-gap {
-  row-gap: 50px !important;
-  margin-top: 70px !important;
+@font-face {
+  font-family: 'Poppins';
+  src: url('../../fonts/Poppins-MediumItalic.woff2') format('woff2'),
+    url('../../fonts/Poppins-MediumItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
 }
 
-.flex-margin {
-  margin-top: 80px !important;
+@font-face {
+  font-family: 'Poppins';
+  src: url('../../fonts/Poppins-ExtraLightItalic.woff2') format('woff2'),
+    url('../../fonts/Poppins-ExtraLightItalic.woff') format('woff');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
 }
 
-.nav-zigzag-bg {
-  position: absolute;
-  top: 0px;
-  right: 0px;
+@font-face {
+  font-family: 'Poppins';
+  src: url('../../fonts/Poppins-LightItalic.woff2') format('woff2'),
+    url('../../fonts/Poppins-LightItalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
 }
 
+@font-face {
+  font-family: 'Poppins';
+  src: url('../../fonts/Poppins-SemiBoldItalic.woff2') format('woff2'),
+    url('../../fonts/Poppins-SemiBoldItalic.woff') format('woff');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../../fonts/Poppins-Light.woff2') format('woff2'),
+    url('../../fonts/Poppins-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../../fonts/Poppins-SemiBold.woff2') format('woff2'),
+    url('../../fonts/Poppins-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../../fonts/Poppins-Medium.woff2') format('woff2'),
+    url('../../fonts/Poppins-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../../fonts/Poppins-Regular.woff2') format('woff2'),
+    url('../../fonts/Poppins-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../../fonts/Poppins-Italic.woff2') format('woff2'),
+    url('../../fonts/Poppins-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../../fonts/Poppins-ThinItalic.woff2') format('woff2'),
+    url('../../fonts/Poppins-ThinItalic.woff') format('woff');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../../fonts/Poppins-Thin.woff2') format('woff2'),
+    url('../../fonts/Poppins-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+.current-item {
+  max-width: 600px;
+}
+
+.arrow-img {
+  max-width: 524px !important;
+}
+
+.arrow-one,
+.arrow-two,
+.arrow-three,
+.arrow-four,
+.arrow-five {
+  max-width: 300px;
+}
+
+.networking-list {
+  margin-left: 20px !important;
+}
 
 @media screen and (max-width: 768px) {
-  .row-grap-extra {
-    row-gap: 10px;
-  }
-
-  .dsc-footer-logo {
-    display: none;
-  }
-
-  .scale-img {
-    width: 20px;
-  }
-
-
-
-  .nav-zigzag-bg {
-    top: 53px;
-    min-height: 50px;
-  }
-
-  .nav-one {
-    width: 100%;
-  }
-
-  .flex-gap {
-    row-gap: 0px !important;
-    margin-top: 30px !important;
-  }
-
-  .typed-card {
-    height: 60px;
-  }
-
-  .next-bg {
-
-    background-size: contain;
-    position: relative;
-    background-image: url('../images/next-bg-mbl.png');
-    height: 73px;
+  .arrow-img {
+    max-width: 250px !important;
 
   }
 
-  .next-text {
-    position: absolute;
-    left: 60px;
+  .arrow-one,
+  .arrow-two,
+  .arrow-three,
 
+  .arrow-five {
+    max-width: 170px;
   }
 
-  .animate-right {
-    position: absolute;
-    right: 40px;
+  .arrow-four {
+    max-width: 130px;
   }
 
-  .social-btns {
-    width: 198px !important;
-    height: 65px !important;
+  .image-right {
+    max-width: 300px !important;
   }
-
 }

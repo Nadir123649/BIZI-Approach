@@ -1,18 +1,30 @@
 import React from 'react';
-import Header from '../components/Header';
 import Footer from '../components/Footer';
-import AboutBanner from '../components/AboutBanner';
-import CarsSection from '../components/CarsSection';
-import SlidingCarsSection from '../components/SlidingCarsSection';
+import Header from '../components/Header';
+import HeroBanner from '../components/HeroBanner';
+import Scan from '../components/Scan';
+import BiziApproach from '../components/BiziApproach';
+import Contact from '../components/Contact';
+import Demo from '../components/Demo';
+import Networking from '../components/Networking';
+
+
+
 
 const About = () => {
   return (
     <>
       <Header />
       <main>
-        <AboutBanner />
+        {/* <AboutBanner />
         <CarsSection />
-        <SlidingCarsSection />
+        <SlidingCarsSection /> */}
+        <HeroBanner />
+        <Scan />
+        <BiziApproach />
+        <Networking />
+        <Demo />
+        <Contact />
       </main>
       <Footer />
     </>

@@ -1,143 +1,19 @@
-import { BgFour, BgOne, BgThree, BgTwo, BlueFour, BlueOne, BlueThree, BlueTwo, CardFour, CardOne, CardThree, CardTwo, LinearFour, LinearOne, LinearThree, LinearTwo, RedFour, RedOne, RedThree, RedTwo, TeamFive, TeamFour, TeamOne, TeamSix, TeamThree, TeamTwo, UpgradeFour, UpgradeOne, UpgradeThree, UpgradeTwo, YellowFour, YellowOne, YellowThree, YellowTwo } from "../utils";
 
-export const teamsData = [
+export const content = [
+    { title: "Matching based on attributes and purpose", description: "vs. Matching based on mutual acquaintances" },
+    { title: "Proactive and personalised pitch feeds", description: "vs. Passive events advertisement" },
     {
-        id: 1,
-        imageOne: TeamOne,
-        name: "Yura",
-        description: "Founder",
+        title: "Full chat app capabilities",
+        description: [
+            "Efficient profile filters",
+            "Quick search and broadcast system"
+        ]
     },
     {
-        id: 2,
-        imageOne: TeamTwo,
-        name: "ALEX",
-        description: "Marketing, Brand Partnerships",
-    },
-    {
-        id: 3,
-        imageOne: TeamThree,
-        name: "Mike",
-        description: "Ux/Ui designer",
-    },
-    {
-        id: 4,
-        imageOne: TeamFour,
-        name: "LIZA",
-        description: "Founder",
-    },
-    {
-        id: 5,
-        imageOne: TeamFive,
-        name: "ALEX",
-        description: "Marketing, Brand Partnerships",
-    },
-
-    {
-        id: 6,
-        imageOne: TeamSix,
-        name: "Varduhi",
-        description: "Ux/Ui designer",
-    },
-]
-export const advisorData = [
-    {
-        id: 1,
-        imageOne: TeamOne,
-        name: "Yura",
-    },
-    {
-        id: 2,
-        imageOne: TeamTwo,
-        name: "ALEX",
-    },
-    {
-        id: 3,
-        imageOne: TeamThree,
-        name: "Mike",
-    },
-]
-export const typedData = [
-    {
-        id: 1,
-        title: "Highway racing",
-    },
-    {
-        id: 2,
-        title: "Circuit racing",
-    },
-    {
-        id: 3,
-        title: "Drift racing",
-    },
-    {
-        id: 4,
-        title: "Sprint racing",
-    },
-    {
-        id: 5,
-        title: "On time racing",
-    },
-    {
-        id: 6,
-        title: "Snap-Dragon Racing",
-    },
-]
-
-export const cardData = [
-    {
-        id: 1,
-        logo: CardOne,
-        imageOne: RedOne,
-        valueone: "15 / 100",
-        imageTwo: RedTwo,
-        valuetwo: "37 / 100",
-        imageThree: RedThree,
-        valuethree: "15 / 100",
-        imageFour: RedFour,
-        valuefour: "37 / 100",
-        upgrade: UpgradeOne,
-        backgroundImage: BgOne,
-    },
-    {
-        id: 2,
-        logo: CardTwo,
-        imageOne: YellowOne,
-        valueone: "35 / 100",
-        imageTwo: YellowTwo,
-        valuetwo: "50 / 100",
-        imageThree: YellowThree,
-        valuethree: "35 / 100",
-        imageFour: YellowFour,
-        valuefour: "50 / 100",
-        upgrade: UpgradeTwo,
-        backgroundImage: BgTwo,
-    },
-    {
-        id: 3,
-        logo: CardThree,
-        imageOne: LinearOne,
-        valueone: "80 / 100",
-        imageTwo: LinearTwo,
-        valuetwo: "100 / 100",
-        imageThree: LinearThree,
-        valuethree: "80 / 100",
-        imageFour: LinearFour,
-        valuefour: "100 / 100",
-        upgrade: UpgradeThree,
-        backgroundImage: BgThree,
-    },
-    {
-        id: 4,
-        logo: CardFour,
-        imageOne: BlueOne,
-        valueone: "60 / 100",
-        imageTwo: BlueTwo,
-        valuetwo: "75 / 100",
-        imageThree: BlueThree,
-        valuethree: "60 / 100",
-        imageFour: BlueFour,
-        valuefour: "80 / 100",
-        upgrade: UpgradeFour,
-        backgroundImage: BgFour,
-    },
-]
+        title: "One phone book solution",
+        description: [
+            "Connect like-minded peers via our recommendation list",
+            "Connect your own friends with QR code and mobile number"
+        ]
+    }
+];
